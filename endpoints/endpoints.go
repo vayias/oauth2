@@ -29,6 +29,12 @@ var Bitbucket = oauth2.Endpoint{
 	TokenURL: "https://bitbucket.org/site/oauth2/access_token",
 }
 
+// Coinbase is the endpoint for Coinbase.
+var Coinbase = oauth2.Endpoint{
+	AuthURL:  "https://www.coinbase.com/oauth/authorize",
+	TokenURL: "http://www.coinbase.com/oauth/token",
+}
+
 // Cern is the endpoint for CERN.
 var Cern = oauth2.Endpoint{
 	AuthURL:  "https://oauth.web.cern.ch/OAuth/Authorize",
